@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://todo-scano-react.herokuapp.com"})
 public class TodoResource {
 
     @Autowired
