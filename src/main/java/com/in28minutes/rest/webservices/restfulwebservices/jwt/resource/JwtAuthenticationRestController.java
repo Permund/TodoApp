@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
 @RestController
-@CrossOrigin(origins = "https://todo-scano-react.herokuapp.com")
+@CrossOrigin(origins = {"http://localhost:4200", "https://todo-scano-react.herokuapp.com"})
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")
